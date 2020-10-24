@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jonathan Lei</title>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<nav>
+    <h2>Jonathan Lei</h2>
+    <hr>
+    <ul id='navbar'>
+    <li><a href="#home">About</a></li>
+    <li><a href="Zhiwei_Lei Resume 2020 .docx">CV</a></li>
+    <li><a href="#books">Books</a></li>
+    <li><a href="#travel">Travel</a></li>   
+    <li><a href="#contact">Contact</a></li> 
+    </ul>
+
+</nav>
+
+<section id='home'>
+    <div id='image'>
+        <img src="website-photo.jpeg" alt="#">
+    </div>
+    <div id='main'>
+        <p>Welcome, I'm Jonathan</p>
+        <p>I have a B.S. in Economics at Geroge Mason University. <p>
+        <p>I also studied at University of Oxford and Stanford University.</p>
+        <p>I love travel, reading, food, running, music, and tennis.</p>
+        <p>Founder of two startups: <a href="https://www.tourlinx.com/">Tourlinx</a> and <a href='#'>Enrich VR.</a></p> 
+        <p>Curious about blockchain, XR, Space and IoT.</p>  
+        <p>Currently learning how to code @ <a href="https://www.rithmschool.com/">rithm school.</a></p> 
+        <p></p>
+    </div>
+</section>
+
+
+<section id='books'> 
+    <div>
+        <ul id='booklist'> 
+            <p>My Personal Book List</p>
+            <li>Range: Why Generalists Triumph in a Specialized World</li>
+            <li>Steve Jobs-Walter Isaacson</li>
+            <li>Life After Google: The Fall of Big Data and the Rise of the Blockchain Economy</li>
+            <li>The Hitchhiker's Guide to the Galaxy</li>
+            <li>The Upstarts by Brad Stone</li>
+            <li>Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones</li>
+            <li>Red Mars-Kim Stanley Robinson</li>
+            <li>Zero to One -Peter Thiel</li>
+            <li>The Innovators-Walter Isaacson</li>
+            <li>Principles- Ray Dalio</li>
+            <li>Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future </li>
+            <li>The Everything Store: Jeff Bezos and the Age of Amazon</li>
+            <li>Why We Sleep-Matthew Walker</li>
+            <li>The Black Swan-Nassim Nicholas Taleb</li>
+            <li>Shoe Dog: A Memoir by the Creator of Nike</li>
+            <li>Outliers-Malcolm Gladwell</li>
+            <li>Einstein: His Life and Universe-Walter Isaacson</li>
+        </ul>
+        
+    </div> </section>
+
+
+
+<section id='travel'>
+    <div>
+        <h3>Countries I've traveled to </h3>
+        <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+<div id="mapdiv" style="width: 1000px; height: 450px;"></div>
+
+<script type="text/javascript">
+var map = AmCharts.makeChart("mapdiv",{
+type: "map",
+theme: "dark",
+projection: "mercator",
+panEventsEnabled : true,
+backgroundColor : "#204369",
+backgroundAlpha : 1,
+zoomControl: {
+zoomControlEnabled : true
+},
+dataProvider : {
+map : "worldHigh",
+getAreasFromMap : false,
+areas :
+[
+	{
+		"id": "AT",
+		"showAsSelected": true
+	},
+	{
+		"id": "BE",
+		"showAsSelected": true
+	},
+	{
+		"id": "CZ",
+		"showAsSelected": true
+	},
+	{
+		"id": "DK",
+		"showAsSelected": true
+	},
+	{
+		"id": "FR",
+		"showAsSelected": true
+	},
+	{
+		"id": "DE",
+		"showAsSelected": true
+	},
+	{
+		"id": "GR",
+		"showAsSelected": true
+	},
+	{
+		"id": "HU",
+		"showAsSelected": true
+	},
+	{
+		"id": "IE",
+		"showAsSelected": true
+	},
+	{
+		"id": "IT",
+		"showAsSelected": true
+	},
+	{
+		"id": "LU",
+		"showAsSelected": true
+	},
+	{
+		"id": "NL",
+		"showAsSelected": true
+	},
+	{
+		"id": "PL",
+		"showAsSelected": true
+	},
+	{
+		"id": "PT",
+		"showAsSelected": true
+	},
+	{
+		"id": "RS",
+		"showAsSelected": true
+	},
+	{
+		"id": "ES",
+		"showAsSelected": true
+	},
+	{
+		"id": "SE",
+		"showAsSelected": true
+	},
+	{
+		"id": "CH",
+		"showAsSelected": true
+	},
+	{
+		"id": "TR",
+		"showAsSelected": true
+	},
+	{
+		"id": "UA",
+		"showAsSelected": true
+	},
+	{
+		"id": "GB",
+		"showAsSelected": true
+	},
+	{
+		"id": "MX",
+		"showAsSelected": true
+	},
+	{
+		"id": "US",
+		"showAsSelected": true
+	},
+	{
+		"id": "BO",
+		"showAsSelected": true
+	},
+	{
+		"id": "CO",
+		"showAsSelected": true
+	},
+	{
+		"id": "PE",
+		"showAsSelected": true
+	},
+	{
+		"id": "EG",
+		"showAsSelected": true
+	},
+	{
+		"id": "MA",
+		"showAsSelected": true
+	},
+	{
+		"id": "CN",
+		"showAsSelected": true
+	},
+	{
+		"id": "HK",
+		"showAsSelected": true
+	},
+	{
+		"id": "IL",
+		"showAsSelected": true
+	},
+	{
+		"id": "JP",
+		"showAsSelected": true
+	},
+	{
+		"id": "MO",
+		"showAsSelected": true
+	},
+	{
+		"id": "SG",
+		"showAsSelected": true
+	},
+	{
+		"id": "KR",
+		"showAsSelected": true
+	}
+]
+},
+areasSettings : {
+autoZoom : true,
+color : "#e64b38",
+colorSolid : "#84ADE9",
+selectedColor : "#e64b38",
+outlineColor : "#666666",
+rollOverColor : "#9EC2F7",
+rollOverOutlineColor : "#204369"
+}
+});
+</script>
+
+    </div>
+
+    <ul>
+        <h4>Places on my wish list</h4>
+        <li>Vietnam</li>
+        <li>Nepal</li>
+        <li>Ethiopia</li>
+        <li>Brazil</li>
+        <li>Indonesia</li>
+    </ul>
+</section>
+
+<section id='contact'>
+    <h2> Contact Me </h2>
+    <div id="socialmedia">
+        <a href="https://www.linkedin.com/in/zhiwei-lei" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/j.lei_eats/" class="fa fa-instagram"></a>
+        <a href="mailto: jonathanlei@gmail.com" class="fa fa-google"></a>
+    </div>
+
+
+
+
+
+</section>
